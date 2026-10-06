@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Houston ALPR Camera Snapshot",
+    "city": "Houston",
+    "state": "TX",
+    "country": "US",
+    "source": "OpenStreetMap",
+    "license": "ODbL-1.0",
+    "attribution": "Camera data © OpenStreetMap contributors",
+    "snapshotDate": "2026-09-14"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm-node-123456789",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.3698, 29.7604]
+      },
+      "properties": {
+        "osmType": "node",
+        "osmId": 123456789,
+        "cameraKind": "ALPR",
+        "operator": "Flock Safety",
+        "direction": null,
+        "mount": null,
+        "confidence": "osm-tagged",
+        "rawTags": {
+          "man_made": "surveillance",
+          "surveillance:type": "ALPR",
+          "operator": "Flock Safety"
+        }
+      }
+    }
+  ]
+}
